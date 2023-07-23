@@ -1,0 +1,117 @@
+.first_section{
+    background-image: -webkit-linear-gradient(0deg,#4dabff 0%,#62ddff 100%);
+    height: auto;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.first_section h2{
+    font-size: 45px;
+    font-weight: bold;
+    font-family: "Heebo",sans-serif;
+    line-height: 54px;
+    margin-bottom: 2rem;
+    margin-top: 6rem;
+    color: #fff;
+}
+
+.first_section p{
+    color: #fff;
+    font-family: "Roboto",sans-serif;
+    margin-bottom: 35px;
+    width: 100%;
+    letter-spacing: 0.5px;
+    font-size: 1.1rem;
+}
+
+.first_section .btn_1{
+    text-align: center !important;
+    font-size: 1.1rem;
+    margin-right: 1.2rem;
+    border-radius: 0.4rem;
+    color: #fff;
+    padding: 10px 35px;
+    background: transparent;
+    border: 1px solid rgba(255,255,255,.5);
+    width: 150px;
+    transition: 0.5s ease-in-out;
+}
+
+.first_section .btn_2{
+    font-size: 1.1rem;
+    margin-right: 1.8rem;
+    border-radius: 0.4rem;
+    color: #000;
+    width: 150px;
+    text-decoration: none;
+    padding: 10px 35px;
+    background-color: #fff;
+    border: 1px solid rgba(255,255,255,.5);
+    margin-top: 10px;
+    transition: 0.5s ease-in-out;
+}
+
+.first_section .btn_1:hover{
+    background-color: #fff;
+    color: black;
+}
+.first_section .btn_2:hover{
+    background-color: transparent;
+    color: white;
+}
+
+.second_section h2{
+    font-size: 2.3rem;
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+}
+
+.second_section p{
+    font-size: 0.9rem;
+    margin: auto;
+    font-weight: 500;
+    color: #777777;
+    /* width: 60%; */
+    margin-bottom: 2rem;
+}
+
+.second_section .card{
+    border: unset;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.second_section .card i{
+    padding: 30px;
+    background-color: #f9f9ff;
+    font-size: 30px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: 1px solid #eee;
+    text-align: center;
+}
+
+.second_section .card h4{
+    font-size: 1.3rem;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 13px;
+}
+
+.second_section .card p{
+    color: #777777;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+.second_section .card:hover i{
+    background-image: -webkit-linear-gradient(0deg,#4dabff 0%,#62ddff 100%);
+    transition: 0.5s ease-in;
+}
+
+.second_section .card:hover h4{
+    color: #4dabff;
+}
